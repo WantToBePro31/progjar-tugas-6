@@ -78,6 +78,7 @@
 - Parameter:
   - realm_id: nama realm yang menjadi identitas
   - group_receiver: nama-nama penerima pesan
+  - message: pesan yang dikirimkan
 
 ### Inbox Realm
 
