@@ -64,7 +64,7 @@
 
 `sendprivaterealm [realm_id] [receiver] [message]`
 
-- Tujuan: mengirimkan pesan ke pengguna yang terdapat pada server yang terhubung pada realm yang sama
+- Tujuan: mengirimkan pesan secara privat ke pengguna yang terdapat pada server yang terhubung pada realm yang sama
 - Parameter:
   - realm_id: nama realm yang menjadi identitas
   - receiver: nama penerima pesan
