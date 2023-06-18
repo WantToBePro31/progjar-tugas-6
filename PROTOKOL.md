@@ -54,9 +54,9 @@
 
 `addrealm [realm_id] [realm_address_to] [realm_port_to]`
 
-- Tujuan: menambahkan realm baru sebagai jembatan antara 2 server
+- Tujuan: menambahkan jembatan realm baru sebagai penghubung antara 2 server
 - Parameter:
-  - realm_id: nama realm yang menjadi identitas
+  - realm_id: nama jembatan realm yang menjadi identitas
   - realm_address_to: ip address dari server yang ingin dihubungkan
   - realm_port_to: port dari server yang ingin dihubungkan
 
@@ -64,9 +64,9 @@
 
 `sendprivaterealm [realm_id] [receiver] [message]`
 
-- Tujuan: mengirimkan pesan secara privat ke pengguna yang terdapat pada server yang terhubung pada realm yang sama
+- Tujuan: mengirimkan pesan secara privat ke pengguna yang terdapat pada server yang terhubung pada jembatan realm yang sama
 - Parameter:
-  - realm_id: nama realm yang menjadi identitas
+  - realm_id: nama jembatan realm yang menjadi identitas
   - receiver: nama penerima pesan
   - message: pesan yang dikirimkan
 
@@ -74,9 +74,9 @@
 
 `sendgrouprealm [realm_id] [group_receiver] [message]`
 
-- Tujuan: mengirimkan pesan ke beberapa pengguna yang terdapat pada server yang terhubung pada realm yang sama
+- Tujuan: mengirimkan pesan ke beberapa pengguna yang terdapat pada server yang terhubung pada jembatan realm yang sama
 - Parameter:
-  - realm_id: nama realm yang menjadi identitas
+  - realm_id: nama jembatan realm yang menjadi identitas
   - group_receiver: nama-nama penerima pesan
   - message: pesan yang dikirimkan
 
@@ -84,9 +84,9 @@
 
 `inboxrealm [realm_id]`
 
-- Tujuan: menampilkan pesan yang belum dibaca oleh pengguna yang terdapat pada server yang terhubung pada realm yang sama
+- Tujuan: menampilkan pesan yang belum dibaca oleh pengguna yang terdapat pada server yang terhubung pada jembatan realm yang sama
 - Parameter:
-  - realm_id: nama realm yang menjadi identitas
+  - realm_id: nama jembatan realm yang menjadi identitas
 
 ### Login Info
 
